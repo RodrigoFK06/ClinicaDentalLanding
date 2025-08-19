@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { GradientOrbs } from "@/components/core/gradient-orbs"
 import { Phone, Mail, MapPin, Clock, Calendar, MessageCircle } from "lucide-react"
 
 const locations = [
@@ -33,7 +32,7 @@ const locations = [
 export function Contact() {
   return (
     <section id="contacto" className="py-24 relative overflow-hidden">
-      <GradientOrbs variant="tl" intensity="lg" />
+  {/* Fondo unificado: sin orbes por sección */}
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}

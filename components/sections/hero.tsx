@@ -3,7 +3,6 @@
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { GradientOrbs } from "@/components/core/gradient-orbs"
 import { Phone, Calendar, Star, Users, Award, Clock } from "lucide-react"
 
 const stats = [
@@ -23,7 +22,7 @@ export function Hero() {
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <GradientOrbs variant="tl" intensity="lg" />
+  {/* Fondo unificado: sin orbes por sección */}
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">

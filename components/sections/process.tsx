@@ -3,7 +3,6 @@
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { GradientOrbs } from "@/components/core/gradient-orbs"
 import { Calendar, UserCheck, Stethoscope, Sparkles } from "lucide-react"
 
 const steps = [
@@ -41,7 +40,7 @@ const steps = [
 export function Process() {
   return (
     <section id="proceso" className="py-24 relative overflow-hidden">
-      <GradientOrbs variant="tr" intensity="md" />
+  {/* Fondo unificado: sin orbes por sección */}
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}

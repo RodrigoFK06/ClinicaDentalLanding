@@ -4,7 +4,6 @@ import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { GradientOrbs } from "@/components/core/gradient-orbs"
 import { Star, Quote } from "lucide-react"
 
 const testimonials = [
@@ -61,7 +60,7 @@ const testimonials = [
 export function Testimonials() {
   return (
     <section id="testimonios" className="py-24 relative overflow-hidden">
-      <GradientOrbs variant="bl" intensity="lg" />
+  {/* Fondo unificado: sin orbes por sección */}
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}

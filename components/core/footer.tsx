@@ -36,7 +36,7 @@ export function Footer() {
   }
 
   return (
-    <footer className="bg-muted/50 border-t border-border">
+    <footer className="border-t border-border bg-transparent">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer */}
         <div className="py-16">

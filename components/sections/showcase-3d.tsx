@@ -5,7 +5,6 @@ import { motion } from "framer-motion"
 import dynamic from "next/dynamic"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { GradientOrbs } from "@/components/core/gradient-orbs"
 import { Loader2, Microscope, Cpu, Zap, Shield } from "lucide-react"
 
 // Dynamic import for 3D component to avoid SSR issues
@@ -44,8 +43,6 @@ const technologies = [
 export function Showcase3D() {
   return (
     <section className="py-24 relative overflow-hidden">
-      <GradientOrbs variant="bl" intensity="lg" />
-
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* 3D Model */}

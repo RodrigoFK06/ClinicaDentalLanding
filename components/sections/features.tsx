@@ -3,7 +3,6 @@
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { GradientOrbs } from "@/components/core/gradient-orbs"
 import { Smile, Zap, Shield, Heart, Sparkles, Crown } from "lucide-react"
 
 const features = [
@@ -54,7 +53,7 @@ const features = [
 export function Features() {
   return (
     <section id="servicios" className="py-24 relative overflow-hidden">
-      <GradientOrbs variant="tr" intensity="md" />
+  {/* Fondo unificado: sin orbes por sección */}
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
